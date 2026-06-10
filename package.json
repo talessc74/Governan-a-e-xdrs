@@ -1,6 +1,6 @@
 {
   "name": "argus-xdrs-governance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ARGUS collective governance system (17 seeds) integrated with XDRS decision records. Provides deliberation protocol, seed definitions, and structured policy archiving for any project.",
   "keywords": [
     "argus",
@@ -22,7 +22,9 @@
   ],
   "dependencies": {
     "filedist": "^0.35.0",
-    "xdrs-core": "^0.0.1"
+    "xdrs-core": "^0.28.4"
   },
-  "bin": "bin/filedist.js"
+  "bin": {
+    "argus-xdrs-governance": "bin/filedist.js"
+  }
 }
