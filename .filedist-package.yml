@@ -34,3 +34,12 @@ sets:
       path: .
       gitignore: false
       managed: false
+
+  # _local skeleton: policy indexes created once — project owns and writes to these
+  - selector:
+      files:
+        - .xdrs/_local/**
+    output:
+      path: .
+      gitignore: false
+      managed: false

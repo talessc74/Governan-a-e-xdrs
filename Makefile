@@ -21,7 +21,7 @@ check:
 
 # Extract governance files into this project (run after npm install)
 extract:
-	npx argus-xdrs-governance extract
+	npx argus-xdrs-governance
 
 clean:
 	rm -rf dist node_modules .filedist.lock
