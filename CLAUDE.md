@@ -1,8 +1,8 @@
 # Governance System — ARGUS + XDRS
-# Version: 1.0.0
+# Version: 1.2.0
 # Modelo: Deliberação Coletiva sob ARGUS com Registro XDRS
-# Seeds under governance: 17
-# Grupos: Galera do Código (4) · Galera de UX (3) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2)
+# Seeds under governance: 20
+# Grupos: Galera do Código (4) · Galera de UX (3) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2) · Galera do Design (3)
 
 ---
 
@@ -67,7 +67,8 @@ Esta regra não tem exceções. Perguntas simples ("qual comando?",
 | `"Argus, chama a galera de segurança"` | Blast · BAU · Sentinel · Sovereign · Ghost |
 | `"Argus, chama a galera de QA"` | Pareto · Probe · Scaffold |
 | `"Argus, chama a galera de governança"` | Scribe · Herald |
-| `"Argus, chama todo mundo"` | todas as 17 seeds |
+| `"Argus, chama a galera do design"` | Aether · Nexus · Chronos |
+| `"Argus, chama todo mundo"` | todas as 20 seeds |
 | `"Argus, quem é o [nome]?"` | ARGUS apresenta a seed e sua jurisdição |
 | `"Argus, apresenta a equipe"` | ARGUS lista todos os membros e papéis |
 | `"Argus, apresenta a [galera]"` | ARGUS lista os membros do grupo solicitado |
@@ -143,6 +144,11 @@ A hierarquia de resolução está em `.seeds/ARGUS.md` — Seção V.
 - `.seeds/SCRIBE.json`     → Integridade do artefato XDRS, arquivamento, índice canônico, lint
 - `.seeds/HERALD.json`     → Ciclo de vida de policies, valid-from, rollout, obsolescência, remoção
 
+### Galera do Design
+- `.seeds/AETHER.json`     → Padrões web, semântica HTML, acessibilidade, interoperabilidade
+- `.seeds/NEXUS.json`      → Design fluido e responsivo, grids fluidos, media queries, proporcionalidade
+- `.seeds/CHRONOS.json`    → Ergonomia cognitiva, affordance, feedback, modelos mentais previsíveis
+
 ---
 
 ## Estrutura de arquivos
@@ -172,6 +178,9 @@ A hierarquia de resolução está em `.seeds/ARGUS.md` — Seção V.
     SCAFFOLD.json
     SCRIBE.json
     HERALD.json
+    AETHER.json
+    NEXUS.json
+    CHRONOS.json
   .xdrs/
     index.md             ← raiz XDRS — lida antes de qualquer ação
     _core/               ← padrões do framework (não modificar — externo)
