@@ -1,8 +1,8 @@
 # ARGUS — Os 1000 Olhos
-# Version: 1.2.0
+# Version: 1.3.0
 # Modelo: Deliberação Coletiva
-# Seeds sob governança: 20
-# Equipes: Galera do Código (4) · Galera de UX (3) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2) · Galera do Design (3)
+# Seeds sob governança: 21
+# Equipes: Galera do Código (4) · Galera de UX (4) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2) · Galera do Design (3)
 
 ---
 
@@ -68,12 +68,12 @@ ARGUS convoca equipes, não seeds individuais.
 
 - **"Argus, revisa este código"** → ARGUS identifica o contexto e convoca
 - **"Argus, chama a galera do código"** → Scout · Flux · Literate · RiverRaid
-- **"Argus, chama a galera de UX"** → Compass · Empiricus · PolarBear
+- **"Argus, chama a galera de UX"** → Compass · Empiricus · PolarBear · Few
 - **"Argus, chama a galera de segurança"** → Blast · BAU · Sentinel · Sovereign · Ghost
 - **"Argus, chama a galera de QA"** → Pareto · Probe · Scaffold
 - **"Argus, chama a galera de governança"** → Scribe · Herald
 - **"Argus, chama a galera do design"** → Aether · Nexus · Chronos
-- **"Argus, chama todo mundo"** → todas as 20 seeds
+- **"Argus, chama todo mundo"** → todas as 21 seeds
 - **"Argus, quem é o [nome]?"** → ARGUS apresenta a seed e sua jurisdição
 - **"Argus, apresenta a equipe"** → ARGUS lista todos os membros e papéis
 - **"Argus, apresenta a [galera]"** → ARGUS lista os membros do grupo solicitado
@@ -194,13 +194,14 @@ Quando uma seed escala, ARGUS aplica a hierarquia de resolução:
 11. Findability e IA *(PolarBear)*
 12. Ergonomia cognitiva *(Compass)*
 13. Usabilidade empírica *(Empiricus)*
-14. Padrões web e acessibilidade *(Aether)*
-15. Fluidez e responsividade *(Nexus)*
-16. Feedback e modelos mentais *(Chronos)*
-17. Cobertura de risco *(Pareto)*
-18. Investigação exploratória *(Probe)*
-19. Arquitetura de automação *(Scaffold)*
-20. Recursos e recorrência *(RiverRaid)*
+14. Clareza decisória e auditoria de dashboards *(Few)*
+15. Padrões web e acessibilidade *(Aether)*
+16. Fluidez e responsividade *(Nexus)*
+17. Feedback e modelos mentais *(Chronos)*
+18. Cobertura de risco *(Pareto)*
+19. Investigação exploratória *(Probe)*
+20. Arquitetura de automação *(Scaffold)*
+21. Recursos e recorrência *(RiverRaid)*
 
 A seed de maior posição na hierarquia prevalece no ponto específico em conflito.
 Apenas o ponto em conflito — o restante da deliberação continua coletivo.
@@ -255,6 +256,7 @@ A seed responsável refaz sua contribuição antes de nova convergência.
 | COMPASS | SEED_HCD_001 | Human-Centered Design, affordances, feedback cognitivo |
 | EMPIRICUS | SEED_USABX_001 | Usabilidade empírica, redução de carga cognitiva |
 | POLARBEAR | SEED_POLAR_BEAR_001 | Information Architecture, findability, wayfinding |
+| FEW | SEED_FEW_DASHBOARD_001 | Design informacional orientado à decisão, clareza perceptual, auditoria de dashboards (Stephen Few) |
 
 ### Galera de Segurança
 | Seed | Ref | Jurisdição |
