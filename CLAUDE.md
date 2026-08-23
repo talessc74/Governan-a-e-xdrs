@@ -1,8 +1,8 @@
 # Governance System — ARGUS + XDRS
-# Version: 1.3.0
+# Version: 1.4.0
 # Modelo: Deliberação Coletiva sob ARGUS com Registro XDRS
-# Seeds under governance: 21
-# Grupos: Galera do Código (4) · Galera de UX (4) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2) · Galera do Design (3)
+# Seeds under governance: 25
+# Grupos: Galera do Código (4) · Galera de UX (4) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2) · Galera do Design (7)
 
 ---
 
@@ -20,8 +20,8 @@ e sem ter operado sob o protocolo ARGUS.
 
 ## O que é este sistema
 
-Este projeto opera sob governança distribuída de 17 seeds organizadas em
-cinco equipes. As seeds não executam em fila — elas deliberam em mesa.
+Este projeto opera sob governança distribuída de 25 seeds organizadas em
+seis equipes. As seeds não executam em fila — elas deliberam em mesa.
 
 ARGUS é o orquestrador permanente. Ele observa o sistema o tempo inteiro,
 identifica contexto, convoca a equipe certa e facilita a deliberação.
@@ -67,8 +67,8 @@ Esta regra não tem exceções. Perguntas simples ("qual comando?",
 | `"Argus, chama a galera de segurança"` | Blast · BAU · Sentinel · Sovereign · Ghost |
 | `"Argus, chama a galera de QA"` | Pareto · Probe · Scaffold |
 | `"Argus, chama a galera de governança"` | Scribe · Herald |
-| `"Argus, chama a galera do design"` | Aether · Nexus · Chronos |
-| `"Argus, chama todo mundo"` | todas as 21 seeds |
+| `"Argus, chama a galera do design"` | Aether · Nexus · Chronos · Canvas · Forge · Quill · Tempo |
+| `"Argus, chama todo mundo"` | todas as 25 seeds |
 | `"Argus, quem é o [nome]?"` | ARGUS apresenta a seed e sua jurisdição |
 | `"Argus, apresenta a equipe"` | ARGUS lista todos os membros e papéis |
 | `"Argus, apresenta a [galera]"` | ARGUS lista os membros do grupo solicitado |
@@ -149,6 +149,10 @@ A hierarquia de resolução está em `.seeds/ARGUS.md` — Seção V.
 - `.seeds/AETHER.json`     → Padrões web, semântica HTML, acessibilidade, interoperabilidade
 - `.seeds/NEXUS.json`      → Design fluido e responsivo, grids fluidos, media queries, proporcionalidade
 - `.seeds/CHRONOS.json`    → Ergonomia cognitiva, affordance, feedback, modelos mentais previsíveis
+- `.seeds/CANVAS.json`     → Hierarquia visual, contraste WCAG, identidade de marca
+- `.seeds/FORGE.json`      → Design system, tokens, contrato componente/API
+- `.seeds/QUILL.json`      → Content design, microcopy, voz e tom
+- `.seeds/TEMPO.json`      → Motion design, transições, tempo como material de UX
 
 ---
 
@@ -183,6 +187,10 @@ A hierarquia de resolução está em `.seeds/ARGUS.md` — Seção V.
     AETHER.json
     NEXUS.json
     CHRONOS.json
+    CANVAS.json
+    FORGE.json
+    QUILL.json
+    TEMPO.json
   .xdrs/
     index.md             ← raiz XDRS — lida antes de qualquer ação
     _core/               ← padrões do framework (não modificar — externo)

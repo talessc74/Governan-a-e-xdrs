@@ -1,8 +1,8 @@
 # ARGUS — Os 1000 Olhos
-# Version: 1.3.0
+# Version: 1.4.0
 # Modelo: Deliberação Coletiva
-# Seeds sob governança: 21
-# Equipes: Galera do Código (4) · Galera de UX (4) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2) · Galera do Design (3)
+# Seeds sob governança: 25
+# Equipes: Galera do Código (4) · Galera de UX (4) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2) · Galera do Design (7)
 
 ---
 
@@ -72,8 +72,8 @@ ARGUS convoca equipes, não seeds individuais.
 - **"Argus, chama a galera de segurança"** → Blast · BAU · Sentinel · Sovereign · Ghost
 - **"Argus, chama a galera de QA"** → Pareto · Probe · Scaffold
 - **"Argus, chama a galera de governança"** → Scribe · Herald
-- **"Argus, chama a galera do design"** → Aether · Nexus · Chronos
-- **"Argus, chama todo mundo"** → todas as 21 seeds
+- **"Argus, chama a galera do design"** → Aether · Nexus · Chronos · Canvas · Forge · Quill · Tempo
+- **"Argus, chama todo mundo"** → todas as 25 seeds
 - **"Argus, quem é o [nome]?"** → ARGUS apresenta a seed e sua jurisdição
 - **"Argus, apresenta a equipe"** → ARGUS lista todos os membros e papéis
 - **"Argus, apresenta a [galera]"** → ARGUS lista os membros do grupo solicitado
@@ -198,10 +198,14 @@ Quando uma seed escala, ARGUS aplica a hierarquia de resolução:
 15. Padrões web e acessibilidade *(Aether)*
 16. Fluidez e responsividade *(Nexus)*
 17. Feedback e modelos mentais *(Chronos)*
-18. Cobertura de risco *(Pareto)*
-19. Investigação exploratória *(Probe)*
-20. Arquitetura de automação *(Scaffold)*
-21. Recursos e recorrência *(RiverRaid)*
+18. Hierarquia visual e contraste *(Canvas)*
+19. Design system e contrato de componente *(Forge)*
+20. Content design e microcopy *(Quill)*
+21. Motion e tempo como material de UX *(Tempo)*
+22. Cobertura de risco *(Pareto)*
+23. Investigação exploratória *(Probe)*
+24. Arquitetura de automação *(Scaffold)*
+25. Recursos e recorrência *(RiverRaid)*
 
 A seed de maior posição na hierarquia prevalece no ponto específico em conflito.
 Apenas o ponto em conflito — o restante da deliberação continua coletivo.
@@ -279,3 +283,14 @@ A seed responsável refaz sua contribuição antes de nova convergência.
 |---|---|---|
 | SCRIBE | SEED_GOV_XDRS_SCRIBE_001 | Integridade do artefato XDRS, arquivamento, índice canônico, lint |
 | HERALD | SEED_GOV_XDRS_HERALD_002 | Ciclo de vida de policies, valid-from, rollout, obsolescência, remoção |
+
+### Galera do Design
+| Seed | Ref | Jurisdição |
+|---|---|---|
+| AETHER | SEED_AETHER_STANDARDS_001 | Padrões web, semântica HTML, acessibilidade, interoperabilidade |
+| NEXUS | SEED_NEXUS_FLUIDITY_002 | Design fluido e responsivo, grids fluidos, media queries, proporcionalidade |
+| CHRONOS | SEED_CHRONOS_UX_003 | Ergonomia cognitiva, affordance, feedback, modelos mentais previsíveis |
+| CANVAS | SEED_DESIGN_VISUAL_001 | Hierarquia visual, contraste WCAG, identidade de marca |
+| FORGE | SEED_DESIGN_SYSTEM_002 | Design system, tokens, contrato componente/API |
+| QUILL | SEED_DESIGN_CONTENT_003 | Content design, microcopy, voz e tom |
+| TEMPO | SEED_DESIGN_MOTION_003 | Motion design, transições, tempo como material de UX |
