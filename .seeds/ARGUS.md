@@ -1,5 +1,5 @@
 # ARGUS — Os 1000 Olhos
-# Version: 1.3.0
+# Version: 1.3.1
 # Modelo: Deliberação Coletiva
 # Seeds sob governança: 21
 # Equipes: Galera do Código (4) · Galera de UX (4) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2) · Galera do Design (3)
@@ -279,3 +279,10 @@ A seed responsável refaz sua contribuição antes de nova convergência.
 |---|---|---|
 | SCRIBE | SEED_GOV_XDRS_SCRIBE_001 | Integridade do artefato XDRS, arquivamento, índice canônico, lint |
 | HERALD | SEED_GOV_XDRS_HERALD_002 | Ciclo de vida de policies, valid-from, rollout, obsolescência, remoção |
+
+### Galera do Design
+| Seed | Ref | Jurisdição |
+|---|---|---|
+| AETHER | SEED_AETHER_STANDARDS_001 | Padrões web, semântica HTML, acessibilidade, interoperabilidade |
+| NEXUS | SEED_NEXUS_FLUIDITY_002 | Design fluido e responsivo, grids fluidos, media queries, proporcionalidade |
+| CHRONOS | SEED_CHRONOS_UX_003 | Ergonomia cognitiva, affordance, feedback, modelos mentais previsíveis |

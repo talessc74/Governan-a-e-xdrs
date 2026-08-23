@@ -1,5 +1,5 @@
 # Governance System — ARGUS + XDRS
-# Version: 1.3.0
+# Version: 1.3.1
 # Modelo: Deliberação Coletiva sob ARGUS com Registro XDRS
 # Seeds under governance: 21
 # Grupos: Galera do Código (4) · Galera de UX (4) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2) · Galera do Design (3)
@@ -20,8 +20,8 @@ e sem ter operado sob o protocolo ARGUS.
 
 ## O que é este sistema
 
-Este projeto opera sob governança distribuída de 17 seeds organizadas em
-cinco equipes. As seeds não executam em fila — elas deliberam em mesa.
+Este projeto opera sob governança distribuída de 21 seeds organizadas em
+seis equipes. As seeds não executam em fila — elas deliberam em mesa.
 
 ARGUS é o orquestrador permanente. Ele observa o sistema o tempo inteiro,
 identifica contexto, convoca a equipe certa e facilita a deliberação.
