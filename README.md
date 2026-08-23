@@ -1,6 +1,6 @@
 # argus-xdrs-governance
 
-Sistema de governança distribuída para agentes de IA: 21 "seeds" (personas
+Sistema de governança distribuída para agentes de IA: 25 "seeds" (personas
 com jurisdição própria) deliberam em mesa sob a orquestração de **ARGUS**,
 e as decisões convergidas são arquivadas como registros de decisão
 estruturados via **XDRS** (Architectural / Business / Engineering Decision
@@ -55,8 +55,8 @@ Dentro do chat com o agente, acione ARGUS por linguagem natural:
 | `Argus, chama a galera de segurança` | Blast · BAU · Sentinel · Sovereign · Ghost |
 | `Argus, chama a galera de QA` | Pareto · Probe · Scaffold |
 | `Argus, chama a galera de governança` | Scribe · Herald |
-| `Argus, chama a galera do design` | Aether · Nexus · Chronos |
-| `Argus, chama todo mundo` | todas as 21 seeds |
+| `Argus, chama a galera do design` | Aether · Nexus · Chronos · Canvas · Forge · Quill · Tempo |
+| `Argus, chama todo mundo` | todas as 25 seeds |
 | `Argus, quem é o [nome]?` | apresenta a seed e sua jurisdição |
 | `Argus, apresenta a [galera]` | lista os membros do grupo |
 
@@ -66,7 +66,7 @@ acontece, e como ARGUS arbitra impasses — está documentado em
 
 ---
 
-## As 21 seeds
+## As 25 seeds
 
 Seis equipes ("galeras"), cada uma com jurisdição sobre um domínio:
 
@@ -77,7 +77,13 @@ Seis equipes ("galeras"), cada uma com jurisdição sobre um domínio:
 | Segurança | Blast · BAU · Sentinel · Sovereign · Ghost |
 | QA | Pareto · Probe · Scaffold |
 | Governança | Scribe · Herald |
-| Design | Aether · Nexus · Chronos |
+| Design | Aether · Nexus · Chronos · Canvas · Forge · Quill · Tempo |
+
+A Galera do Design é a maior do sistema — reúne personas de três origens
+diferentes (padrões web, design system/visual, motion/content) que
+convergiram de projetos distintos sob a mesma governança. Ver
+[`docs/seeds-reference.md`](docs/seeds-reference.md#galera-do-design) para
+a proveniência de cada uma.
 
 Tabela completa com a jurisdição de cada seed em
 [`docs/seeds-reference.md`](docs/seeds-reference.md). Quer adicionar uma
@@ -105,14 +111,14 @@ e do fluxo de arquivamento em [`docs/xdrs.md`](docs/xdrs.md).
   .filedist-package.yml    ← define o que é distribuído e o que é "managed"
   .seeds/
     ARGUS.md                ← orquestrador — protocolo completo
-    <SEED>.json × 21        ← uma persona por arquivo
+    <SEED>.json × 25        ← uma persona por arquivo
   .xdrs/
     index.md                 ← raiz do índice XDRS
     _core/                    ← padrões do framework (externo, via xdrs-core)
     _local/                   ← policies deste projeto
   docs/
     argus-protocol.md         ← como a deliberação funciona
-    seeds-reference.md         ← tabela completa das 21 seeds
+    seeds-reference.md         ← tabela completa das 25 seeds
     xdrs.md                     ← ADR/BDR/EDR, _core vs _local, arquivamento
     contributing-a-seed.md       ← como propor e registrar uma nova seed
     architecture.md               ← filedist, versionamento, comandos do Makefile
@@ -123,7 +129,7 @@ e do fluxo de arquivamento em [`docs/xdrs.md`](docs/xdrs.md).
 ## Documentação completa
 
 - [`docs/argus-protocol.md`](docs/argus-protocol.md) — vigilância, convocação, deliberação, convergência, impasse
-- [`docs/seeds-reference.md`](docs/seeds-reference.md) — as 21 seeds, por galera, com jurisdição e ref
+- [`docs/seeds-reference.md`](docs/seeds-reference.md) — as 25 seeds, por galera, com jurisdição e ref
 - [`docs/xdrs.md`](docs/xdrs.md) — o que é XDRS, ADR/BDR/EDR, `_core` vs `_local`
 - [`docs/contributing-a-seed.md`](docs/contributing-a-seed.md) — checklist para adicionar uma seed nova
 - [`docs/architecture.md`](docs/architecture.md) — distribuição via `filedist`, versionamento, `Makefile`
