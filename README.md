@@ -40,10 +40,11 @@ a versioned, indexed XDRS document (problem 2).
 
 ```bash
 npm install argus-xdrs-governance
-npx argus-xdrs-governance extract
+npx argus-xdrs-governance install
 ```
 
-The `extract` command writes `CLAUDE.md`, `AGENTS.md`, `.seeds/**`, and
+The `install` command (from the underlying `filedist` tool - distinct
+from `npm install`) writes `CLAUDE.md`, `AGENTS.md`, `.seeds/**`, and
 `.xdrs/index.md` to your project's root. From the next chat with the
 agent onward, ARGUS governance is active.
 
@@ -173,10 +174,11 @@ documento XDRS versionado e indexado (problema 2).
 
 ```bash
 npm install argus-xdrs-governance
-npx argus-xdrs-governance extract
+npx argus-xdrs-governance install
 ```
 
-O comando `extract` grava `CLAUDE.md`, `AGENTS.md`, `.seeds/**` e
+O comando `install` (da ferramenta `filedist` por baixo — não confundir
+com `npm install`) grava `CLAUDE.md`, `AGENTS.md`, `.seeds/**` e
 `.xdrs/index.md` na raiz do seu projeto. A partir do próximo chat com o
 agente, a governança ARGUS está ativa.
 
