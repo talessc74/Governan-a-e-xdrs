@@ -20,8 +20,10 @@ check:
 	npx argus-xdrs-governance check
 
 # Extract governance files into this project (run after npm install)
+# NOTE: filedist's real subcommand is "install", not "extract" - "extract"
+# is just this target's friendly name.
 extract:
-	npx argus-xdrs-governance extract
+	npx argus-xdrs-governance install
 
 clean:
 	rm -rf dist node_modules .filedist.lock

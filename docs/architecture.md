@@ -60,7 +60,9 @@ listados nele (`AGENTS.md` reforça essa regra explicitamente).
 
 Em um projeto consumidor, sem o `Makefile` copiado, os comandos equivalentes
 via `npx` são `npx argus-xdrs-governance check` e
-`npx argus-xdrs-governance extract`.
+`npx argus-xdrs-governance install` (o subcomando real do `filedist` é
+`install`, não `extract` — `make extract` é só o nome amigável deste
+target local, mas o comando `npx` direto usa o nome real).
 
 ## Fluxo de atualização
 
@@ -68,7 +70,7 @@ Quando este repositório muda (nova seed, protocolo atualizado):
 
 1. Bump de versão em `package.json`, `CLAUDE.md`, `.seeds/ARGUS.md`
 2. `make build` gera o tarball / publica o pacote
-3. Projetos consumidores rodam `npm update argus-xdrs-governance && npx argus-xdrs-governance extract`
+3. Projetos consumidores rodam `npm update argus-xdrs-governance && npx argus-xdrs-governance install`
    (ou `make check` primeiro, para confirmar que há algo novo antes de sobrescrever)
 
 Isso é deliberadamente diferente do fluxo mais simples usado por outros
