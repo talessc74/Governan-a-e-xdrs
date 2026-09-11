@@ -11,8 +11,19 @@ Decisions here override all other scopes.
 
 ## Content
 
-No decisions archived yet. Policies will appear here as ARGUS deliberations converge
-and are validated by the project team.
+### ADRs — Architectural Decisions (3 documents)
+
+Expansion of the Galera do Design and Galera do Código with new seeds, and the
+single-source-of-truth distribution architecture (npm + npm-free installer).
+
+### EDRs — Engineering Decisions (1 document)
+
+Authorization and harm-boundary gates added to the GHOST seed.
+
+### BDRs — Business Decisions (1 document)
+
+Policy for periodically comparing the ARGUS seed roster against external agent
+catalogs to identify real capability gaps.
 
 ## How to add a policy
 
