@@ -1,5 +1,5 @@
 # Governance System — ARGUS + XDRS
-# Version: 1.5.0
+# Version: 1.5.1
 # Modelo: Deliberação Coletiva sob ARGUS com Registro XDRS
 # Seeds under governance: 28
 # Grupos: Galera do Código (4) · Galera de UX (4) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2) · Galera do Design (10)
