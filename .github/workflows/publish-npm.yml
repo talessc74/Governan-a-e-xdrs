@@ -1,0 +1,55 @@
+name: Publish to npm
+
+# Publica automaticamente sempre que a versão em package.json muda no main,
+# para nunca mais depender de rodar `npm publish` manualmente num terminal.
+# workflow_dispatch permite disparar manualmente pela aba Actions (ex: para
+# publicar uma versão que já está em main mas ainda não foi publicada).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "package.json"
+  workflow_dispatch: {}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Comparar versão local com a publicada
+        id: version-check
+        run: |
+          LOCAL_VERSION=$(node -p "require('./package.json').version")
+          PUBLISHED_VERSION=$(npm view argus-xdrs-governance version 2>/dev/null || echo "none")
+          echo "local=$LOCAL_VERSION" >> "$GITHUB_OUTPUT"
+          echo "published=$PUBLISHED_VERSION" >> "$GITHUB_OUTPUT"
+          if [ "$LOCAL_VERSION" != "$PUBLISHED_VERSION" ]; then
+            echo "should_publish=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_publish=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publicar no npm
+        if: steps.version-check.outputs.should_publish == 'true'
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Resumo
+        run: |
+          if [ "${{ steps.version-check.outputs.should_publish }}" = "true" ]; then
+            echo "✅ Publicado ${{ steps.version-check.outputs.local }} no npm." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "ℹ️ Nada a publicar — package.json já está em ${{ steps.version-check.outputs.local }}, igual ao npm." >> "$GITHUB_STEP_SUMMARY"
+          fi
