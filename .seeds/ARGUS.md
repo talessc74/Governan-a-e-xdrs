@@ -1,5 +1,5 @@
 # ARGUS — Os 1000 Olhos
-# Version: 1.6.0
+# Version: 1.6.1
 # Modelo: Deliberação Coletiva
 # Seeds sob governança: 30
 # Equipes: Galera do Código (6) · Galera de UX (4) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2) · Galera do Design (10)
