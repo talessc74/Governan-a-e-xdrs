@@ -62,7 +62,7 @@ ARGUS convoca equipes, não seeds individuais.
 | Feature end-to-end | Todas as equipes |
 | Arquitetura, decisão estrutural, ADR | Galera do Código + Galera de Segurança + PolarBear |
 | Qualidade, cobertura, automação de testes | Galera de QA + Scout + Flux |
-| Recursos computacionais, geração procedural | RiverRaid + Literate + Flux |
+| Restrição de recursos finitos, geração determinística e reutilizável a partir de pouco código, evitar suposição de armazenamento ilimitado | RiverRaid + Literate + Flux |
 | Dado do usuário, privacidade, consentimento | Sovereign + Blast + Sentinel + BAU |
 | Arquivamento de decisão convergida em XDRS | Galera de Governança (Scribe · Herald) |
 | Remoção ou atualização de policy existente | Galera de Governança + seeds autoras originais |

@@ -13,4 +13,6 @@ Business process and strategy decisions for this project, created through ARGUS 
 - `finance` — Financial and cost-control decisions
 - `sustainability` — Environmental and social responsibility decisions
 
-No decisions archived yet.
+## Product
+
+- [_local-bdr-policy-601](product/601-comparacao-periodica-catalogos-agentes-externos.md) - Comparação periódica com catálogos externos de agentes
