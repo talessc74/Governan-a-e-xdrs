@@ -27,7 +27,10 @@ Question: Como fechar essas três lacunas sem enfraquecer o papel de SCRIBE e HE
 
 Este é o mesmo padrão de mudança da `_local-edr-policy-101` (adição de gates a uma seed existente, sem alterar sua jurisdição central) — aqui aplicado a duas seeds da Galera de Governança em vez de uma seed de Segurança.
 
+**Validação.** Após esta mudança, a mesma tarefa que originou o experimento foi reexecutada de forma isolada, com verificação independente (arquivo criado, `diff` contra `_local-edr-policy-101`/`102` originais, e `xdrs-core lint .` reexecutado pelo investigador). As três falhas não se repetiram: o `name` do novo documento bateu com o lint real, o lint final ficou idêntico à baseline pré-existente sem erro novo, e nenhum arquivo arquivado foi editado. Ver `researches/001-xdrs-core-vs-argus-experimento-pareado.md` para o método completo e os dois conjuntos de resultados (antes e depois desta mudança).
+
 ## References
 
 - Arquivos: `.seeds/SCRIBE.json`, `.seeds/HERALD.json`, `.seeds/ARGUS.md`
 - [_local-edr-policy-101 - GHOST ganha gates de autorização e limite de dano real](101-ghost-gates-autorizacao-limite-dano.md) — precedente do mesmo tipo de mudança (gates novos numa seed existente)
+- [_local-edr-research-001 - xdrs-core puro vs. governança ARGUS: experimento pareado](researches/001-xdrs-core-vs-argus-experimento-pareado.md) — metodologia completa, evidência e os dois conjuntos de resultados (antes e depois da correção) que fundamentam esta decisão

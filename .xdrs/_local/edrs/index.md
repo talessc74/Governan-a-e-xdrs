@@ -15,3 +15,7 @@ Engineering workflow and tooling decisions for this project, created through ARG
 
 - [_local-edr-policy-101](application/101-ghost-gates-autorizacao-limite-dano.md) - GHOST ganha gates de autorização e limite de dano real
 - [_local-edr-policy-102](application/102-gates-mecanicos-scribe-herald.md) - Gates mecânicos para SCRIBE e HERALD
+
+### Application — Researches
+
+- [_local-edr-research-001](application/researches/001-xdrs-core-vs-argus-experimento-pareado.md) - xdrs-core puro vs. governança ARGUS: experimento pareado que motivou a _local-edr-policy-102
