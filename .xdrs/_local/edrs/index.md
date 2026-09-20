@@ -14,3 +14,4 @@ Engineering workflow and tooling decisions for this project, created through ARG
 ## Application
 
 - [_local-edr-policy-101](application/101-ghost-gates-autorizacao-limite-dano.md) - GHOST ganha gates de autorização e limite de dano real
+- [_local-edr-policy-102](application/102-gates-mecanicos-scribe-herald.md) - Gates mecânicos para SCRIBE e HERALD

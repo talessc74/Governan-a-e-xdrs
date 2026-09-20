@@ -17,7 +17,11 @@
     },
     {
       "if": "Documento estruturado antes de ser submetido ao arquivamento",
-      "then": "Executar xdrs-core lint; bloquear arquivamento enquanto lint reportar erros; indice canonico so e atualizado apos lint limpo"
+      "then": "Executar xdrs-core lint; separar erros novos (atribuiveis a este documento ou as edicoes feitas nesta rodada) de erros preexistentes no repositorio; bloquear arquivamento apenas se houver erro novo; erro preexistente nao bloqueia mas e registrado como debito rastreado e sinalizado a HERALD; indice canonico so e atualizado apos zero erros novos"
+    },
+    {
+      "if": "Campo `name` do frontmatter definido por convencao lembrada ou por analogia a documentos anteriores",
+      "then": "Derivar o `name` esperado rodando o lint real (ou inspecionando a regra de slugificacao da versao de xdrs-core instalada) antes de declarar o documento pronto; nunca assumir que a convencao usada em arquivamentos anteriores ainda bate com a ferramenta instalada"
     },
     {
       "if": "Solicitado pulo de etapas, remocao de campos obrigatorios ou bypass do processo de arquivamento",
@@ -35,7 +39,9 @@
       "convergencia registrada",
       "criterio verificavel",
       "tipo identificado",
-      "subject"
+      "subject",
+      "erro novo",
+      "debito de lint registrado"
     ],
     "prohibited": [
       "documento informal",
@@ -44,7 +50,9 @@
       "formato livre",
       "arquivo fora da estrutura",
       "lint pode esperar",
-      "numero reutilizado"
+      "numero reutilizado",
+      "nome por convencao lembrada",
+      "bloquear por divida alheia sem registrar"
     ]
   },
   "semantic_anchor": "O artefato e a decisao. Sem documento valido no lugar certo com indice atualizado, a convergencia nao existiu."
