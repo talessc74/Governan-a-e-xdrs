@@ -1,11 +1,11 @@
 ---
-name: _local-adr-policy-103-redesenho-agentes-curadoria-sgcco
+name: _local-adr-policy-302-redesenho-agentes-curadoria-sgcco
 description: Substitui três agentes de IA autônomos da Fase de Curadoria do SGCCCO (Sugestão de Associação, Leitura de Imagem/DICOM, Simulador de Impacto) por dois agentes de apoio (Captura de Curadoria, Busca de Referência), depois que uma visita técnica confirmou que a identificação física de cada osso é sempre feita pelo Curador. Use ao revisar o desenho de agentes de IA de qualquer fase do SGCCCO que dependa de julgamento científico humano.
 apply-to: Fluxo operacional do SGCCCO (Sistema de Gestão Curatorial e Científica de Coleções Osteológicas) e o desenho de agentes de IA da Fase de Curadoria, documentado em "SGCCCO — Fases e Agentes de IA"
 valid-from: 2026-09-23
 ---
 
-# _local-adr-policy-103: Redesenho dos agentes de IA da Fase de Curadoria do SGCCCO
+# _local-adr-policy-302: Redesenho dos agentes de IA da Fase de Curadoria do SGCCCO
 
 ## Context and Problem Statement
 
@@ -20,7 +20,7 @@ Question: os agentes de IA da Curadoria deveriam continuar propondo estimativas 
 **Substituir os três agentes autônomos por dois agentes de apoio: Captura de Curadoria e Busca de Referência.**
 
 - **Captura de Curadoria** — reaplica o mesmo mecanismo de captura por voz já usado no Recebimento (Fase 1): o Curador narra enquanto identifica e monta o esqueleto; o agente estrutura a fala no relatório de completude (campos fixos) e nas observações (campos abertos). A identificação em si continua sendo sempre do Curador.
-- **Busca de Referência** — quando o Curador precisa comparar o que está vendo (uma patologia, um traço de perfil biológico) contra casos catalogados, o agente busca referências comparáveis no Agente Grafo (ver `_local-adr-policy-201`). A classificação final é sempre do Curador.
+- **Busca de Referência** — quando o Curador precisa comparar o que está vendo (uma patologia, um traço de perfil biológico) contra casos catalogados, o agente busca referências comparáveis no Agente Grafo (ver `_local-adr-policy-303`). A classificação final é sempre do Curador.
 
 ### Details
 
@@ -33,5 +33,5 @@ Question: os agentes de IA da Curadoria deveriam continuar propondo estimativas 
 
 ## References
 
-- `_local-adr-policy-201` — Modelo de dados do fluxo SGCCCO: assinatura universal, Galpão e Agente Grafo incremental
-- `_local-adr-policy-401` — Arquitetura de captura por voz do SGCCCO (POP verbal)
+- `_local-adr-policy-303` — Modelo de dados do fluxo SGCCCO: assinatura universal, Galpão e Agente Grafo incremental
+- `_local-adr-policy-304` — Arquitetura de captura por voz do SGCCCO (POP verbal)
