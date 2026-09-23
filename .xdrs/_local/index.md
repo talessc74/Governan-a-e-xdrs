@@ -11,14 +11,10 @@ Decisions here override all other scopes.
 
 ## Content
 
-### ADRs — Architectural Decisions (6 documents)
+### ADRs — Architectural Decisions (3 documents)
 
-Expansion of the Galera do Design and Galera do Código with new seeds, the
-single-source-of-truth distribution architecture (npm + npm-free installer),
-and the SGCCCO operational-flow decisions: AI agent redesign for the
-Curadoria phase, the data model extensions (universal signature, Galpão
-tier, incremental knowledge graph), and the voice-capture integration
-architecture (third-party ASR/TTS + LLM extraction only).
+Expansion of the Galera do Design and Galera do Código with new seeds, and the
+single-source-of-truth distribution architecture (npm + npm-free installer).
 
 ### EDRs — Engineering Decisions (1 document)
 
