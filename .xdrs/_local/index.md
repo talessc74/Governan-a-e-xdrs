@@ -16,9 +16,10 @@ Decisions here override all other scopes.
 Expansion of the Galera do Design and Galera do Código with new seeds, and the
 single-source-of-truth distribution architecture (npm + npm-free installer).
 
-### EDRs — Engineering Decisions (1 document)
+### EDRs — Engineering Decisions (2 documents)
 
-Authorization and harm-boundary gates added to the GHOST seed.
+Authorization and harm-boundary gates added to the GHOST seed, and mechanical
+verification / minimal-diff gates added to SCRIBE and HERALD.
 
 ### BDRs — Business Decisions (1 document)
 

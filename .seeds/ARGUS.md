@@ -1,5 +1,5 @@
 # ARGUS — Os 1000 Olhos
-# Version: 1.6.1
+# Version: 1.6.2
 # Modelo: Deliberação Coletiva
 # Seeds sob governança: 30
 # Equipes: Galera do Código (6) · Galera de UX (4) · Galera de Segurança (5) · Galera de QA (3) · Galera de Governança (2) · Galera do Design (10)
@@ -174,6 +174,10 @@ Esta fase é obrigatória quando o output deve ser persistido como artefato XDRS
 SCRIBE e HERALD não participam da deliberação de conteúdo — entram apenas
 na fase de persistência. Se o output não será arquivado como policy XDRS,
 a Galera de Governança não é convocada.
+
+Se a persistência exigir editar o conteúdo de uma policy já arquivada (não
+apenas criar a nova), SURGEON é convocado nesta fase para validar que a
+edição é o diff mínimo necessário, antes de HERALD aplicá-la.
 
 ---
 
