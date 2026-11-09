@@ -1,11 +1,11 @@
 ---
-name: _local-adr-policy-101-expansao-galera-design-anti-generico
+name: _local-adr-policy-101-galera-do-design-ganha-seeds-anti-generico
 description: Decisão de expandir a Galera do Design com três seeds novas (THRESHOLD, EMPATH, SKEPTIC) para cobrir revisão pós-entrega, simulação de persona e ceticismo por padrão. Use ao revisar a composição da Galera do Design ou ao decidir se uma nova seed de qualidade de design deve ser adicionada.
 apply-to: Estrutura de seeds e protocolo ARGUS deste repositório (argus-xdrs-governance)
 valid-from: 2026-09-11
 ---
 
-# _local-adr-policy-101: Expansão da Galera do Design com seeds anti-genérico
+# _local-adr-policy-101: Galera do Design ganha seeds anti-genérico
 
 ## Context and Problem Statement
 

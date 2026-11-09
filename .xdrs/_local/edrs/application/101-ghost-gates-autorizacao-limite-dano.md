@@ -1,11 +1,11 @@
 ---
-name: _local-edr-policy-101-ghost-gates-autorizacao-limite-dano
+name: _local-edr-policy-101-ghost-ganha-gates-de-autorizacao-e-dano
 description: Adiciona decision gates de autorização, escopo e limite de dano real à seed GHOST, que modelava mindset ofensivo (engenharia social, persistência) sem nenhuma trava de autorização. Use ao revisar ou estender qualquer seed cujo domínio inclua simulação de ataque ou mindset ofensivo.
 apply-to: Seed GHOST (.seeds/GHOST.json) e qualquer seed futura de mindset ofensivo/segurança
 valid-from: 2026-09-11
 ---
 
-# _local-edr-policy-101: GHOST ganha gates de autorização e limite de dano real
+# _local-edr-policy-101: GHOST ganha gates de autorização e dano
 
 ## Context and Problem Statement
 

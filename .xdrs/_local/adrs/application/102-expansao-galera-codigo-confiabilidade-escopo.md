@@ -1,11 +1,11 @@
 ---
-name: _local-adr-policy-102-expansao-galera-codigo-confiabilidade-escopo
+name: _local-adr-policy-102-galera-do-codigo-ganha-vigil-e-surgeon
 description: Decisão de expandir a Galera do Código com duas seeds novas (VIGIL, SURGEON) para cobrir confiabilidade em produção e disciplina de escopo/diff mínimo. Use ao revisar a composição da Galera do Código ou ao decidir se uma nova seed de engenharia deve ser adicionada.
 apply-to: Estrutura de seeds e protocolo ARGUS deste repositório (argus-xdrs-governance)
 valid-from: 2026-09-11
 ---
 
-# _local-adr-policy-102: Expansão da Galera do Código com confiabilidade e disciplina de escopo
+# _local-adr-policy-102: Galera do Código ganha VIGIL e SURGEON
 
 ## Context and Problem Statement
 

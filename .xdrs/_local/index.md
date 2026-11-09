@@ -11,10 +11,11 @@ Decisions here override all other scopes.
 
 ## Content
 
-### ADRs — Architectural Decisions (3 documents)
+### ADRs — Architectural Decisions (4 documents)
 
-Expansion of the Galera do Design and Galera do Código with new seeds, and the
-single-source-of-truth distribution architecture (npm + npm-free installer).
+Expansion of the Galera do Design and Galera do Código with new seeds, the
+single-source-of-truth distribution architecture (npm + npm-free installer), and
+the vendored MiroFish validation tool in the Cidade repository.
 
 ### EDRs — Engineering Decisions (1 document)
 

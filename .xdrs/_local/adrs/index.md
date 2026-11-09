@@ -17,6 +17,10 @@ Architectural and technical decisions for this project, created through ARGUS de
 - [_local-adr-policy-101](application/101-expansao-galera-design-anti-generico.md) - Expansão da Galera do Design com THRESHOLD, EMPATH, SKEPTIC
 - [_local-adr-policy-102](application/102-expansao-galera-codigo-confiabilidade-escopo.md) - Expansão da Galera do Código com VIGIL, SURGEON
 
+## Integration
+
+- [_local-adr-policy-302](integration/302-mirofish-vendorizado-no-cidade.md) - Como trazer ferramentas externas de validação (MiroFish) para o Cidade
+
 ## Platform
 
 - [_local-adr-policy-301](platform/301-fonte-unica-distribuicao-dois-instaladores.md) - Fonte única de distribuição (npm + instalador sem npm)

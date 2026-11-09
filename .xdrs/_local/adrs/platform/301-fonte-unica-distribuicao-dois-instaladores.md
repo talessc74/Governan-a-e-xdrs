@@ -1,11 +1,11 @@
 ---
-name: _local-adr-policy-301-fonte-unica-distribuicao-dois-instaladores
+name: _local-adr-policy-301-fonte-unica-com-dois-instaladores
 description: Estabelece este repositório (argus-xdrs-governance) como fonte única de verdade das seeds e do protocolo ARGUS, com dois canais de instalação independentes (npm para projetos Node, um repositório instalador leve para projetos sem Node) que buscam do mesmo conteúdo ao vivo. Use ao decidir onde uma seed deve ser editada, ou ao criar um novo canal de distribuição da governança.
 apply-to: Todo projeto que consome a governança ARGUS, via npm ou via instalador sem npm
 valid-from: 2026-09-11
 ---
 
-# _local-adr-policy-301: Fonte única de distribuição com dois instaladores
+# _local-adr-policy-301: Fonte única com dois instaladores
 
 ## Context and Problem Statement
 

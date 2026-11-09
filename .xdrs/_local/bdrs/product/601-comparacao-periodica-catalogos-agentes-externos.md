@@ -1,11 +1,11 @@
 ---
-name: _local-bdr-policy-601-comparacao-periodica-catalogos-agentes-externos
+name: _local-bdr-policy-601-comparacao-periodica-de-catalogos-externos
 description: Estabelece a comparação estruturada do roster de seeds do ARGUS contra catálogos externos de agentes de IA como prática de evolução pontual (health-check), não um processo contínuo obrigatório. Use ao decidir se uma galera precisa de seeds novas, ou ao avaliar se uma seed existente ainda é suficiente por si só.
 apply-to: Evolução do roster de seeds deste repositório (argus-xdrs-governance)
 valid-from: 2026-09-11
 ---
 
-# _local-bdr-policy-601: Comparação periódica com catálogos externos de agentes
+# _local-bdr-policy-601: Comparação periódica de catálogos externos
 
 ## Context and Problem Statement
 
